@@ -6,8 +6,6 @@ class DashboardService{
 
   Future<ProductModel> getDashboard({int limit = 0}) async {
     ProductModel productModel = ProductModel();
-
-
     try {
       //Dio dio = Dio();
       Future.delayed(Duration(milliseconds: 500));
